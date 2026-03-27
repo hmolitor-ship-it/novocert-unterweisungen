@@ -29,6 +29,9 @@ export default function Header() {
             <a href="#/impressum" className="text-sm font-medium text-slate-300 hover:text-white transition-colors">
               Impressum
             </a>
+            <a href="https://novocert.de" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-slate-300 hover:text-white transition-colors">
+              Pr&auml;senz-Schulungen
+            </a>
             <a
               href="mailto:Consulting@ws-anlagentechnik.de"
               className="inline-flex items-center px-4 py-2 bg-blue text-white text-sm font-semibold rounded-lg hover:bg-blue-hover transition-colors"
@@ -59,6 +62,9 @@ export default function Header() {
               </a>
               <a href="#/impressum" onClick={() => setMenuOpen(false)} className="text-sm font-medium text-slate-300 hover:text-white px-2 py-2">
                 Impressum
+              </a>
+              <a href="https://novocert.de" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} className="text-sm font-medium text-slate-300 hover:text-white px-2 py-2">
+                Pr&auml;senz-Schulungen
               </a>
               <a
                 href="mailto:Consulting@ws-anlagentechnik.de"

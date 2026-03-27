@@ -38,6 +38,21 @@ export default function Footer() {
                   Datenschutz
                 </a>
               </li>
+              <li>
+                <a href="https://novocert.de" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-400 hover:text-white transition-colors">
+                  Pr&auml;senz-Schulungen
+                </a>
+              </li>
+              <li>
+                <a href="https://scc-schulung.vercel.app" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-400 hover:text-white transition-colors">
+                  SCC-Pr&uuml;fungsvorbereitung
+                </a>
+              </li>
+              <li>
+                <a href="https://ws-anlagentechnik.de" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-400 hover:text-white transition-colors">
+                  WS Anlagentechnik
+                </a>
+              </li>
             </ul>
           </div>
 
