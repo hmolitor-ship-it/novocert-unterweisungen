@@ -1,0 +1,995 @@
+[
+  {
+    "id": 1,
+    "slug": "allgemeine-sicherheitsunterweisung",
+    "titel": "Allgemeine Sicherheitsunterweisung",
+    "kategorie": "Sicherheit",
+    "icon": "Shield",
+    "dauer": "15 Min",
+    "rechtsgrundlage": "\u00a712 ArbSchG, DGUV Vorschrift 1 \u00a74",
+    "beschreibung": "Grundlagen der Arbeitssicherheit: Pflichten von Arbeitgeber und Arbeitnehmer, Gef\u00e4hrdungsbeurteilung, Meldepflichten, PSA-Benutzung und Notfallverhalten.",
+    "lernziele": [
+      "Grundpflichten Arbeitgeber/Arbeitnehmer kennen",
+      "Gef\u00e4hrdungsbeurteilung verstehen",
+      "Meldepflichten bei Unf\u00e4llen beherrschen",
+      "PSA korrekt benutzen",
+      "Notfallverhalten anwenden"
+    ],
+    "fragen": [
+      {
+        "frage": "Wie oft muss eine Sicherheitsunterweisung mindestens durchgef\u00fchrt werden?",
+        "optionen": ["Alle 2 Jahre", "J\u00e4hrlich", "Alle 6 Monate", "Nur bei Neueinstellung"],
+        "korrekt": 1,
+        "erklaerung": "Gem\u00e4\u00df \u00a712 ArbSchG und DGUV Vorschrift 1 \u00a74 muss mindestens einmal j\u00e4hrlich unterwiesen werden. Bei besonderen Anl\u00e4ssen (neue Gef\u00e4hrdungen, Unf\u00e4lle) auch h\u00e4ufiger."
+      },
+      {
+        "frage": "Wer ist f\u00fcr die Durchf\u00fchrung der Gef\u00e4hrdungsbeurteilung verantwortlich?",
+        "optionen": ["Der Betriebsrat", "Der Arbeitgeber", "Die Berufsgenossenschaft", "Der Betriebsarzt"],
+        "korrekt": 1,
+        "erklaerung": "Die Gef\u00e4hrdungsbeurteilung ist eine nicht delegierbare Pflicht des Arbeitgebers gem\u00e4\u00df \u00a75 ArbSchG. Er kann sich fachkundig beraten lassen, bleibt aber verantwortlich."
+      },
+      {
+        "frage": "Was m\u00fcssen Sie tun, wenn Sie eine Gefahr am Arbeitsplatz entdecken?",
+        "optionen": ["Weiterarbeiten und sp\u00e4ter melden", "Sofort den Vorgesetzten informieren", "Selbst beheben ohne R\u00fccksprache", "Nur bei Verletzungen melden"],
+        "korrekt": 1,
+        "erklaerung": "Besch\u00e4ftigte sind gem\u00e4\u00df \u00a716 ArbSchG verpflichtet, jede festgestellte unmittelbare erhebliche Gefahr unverz\u00fcglich dem Vorgesetzten zu melden."
+      },
+      {
+        "frage": "Welche Pflicht haben Arbeitnehmer bez\u00fcglich der PSA?",
+        "optionen": ["PSA selbst kaufen", "PSA bestimmungsgem\u00e4\u00df benutzen", "PSA nur bei Kontrollen tragen", "PSA ist freiwillig"],
+        "korrekt": 1,
+        "erklaerung": "Arbeitnehmer sind verpflichtet, die bereitgestellte PSA bestimmungsgem\u00e4\u00df zu benutzen (\u00a715 ArbSchG). Die Bereitstellung ist Arbeitgeberpflicht, die Benutzung Arbeitnehmerpflicht."
+      },
+      {
+        "frage": "Bis wann muss ein meldepflichtiger Arbeitsunfall der BG gemeldet werden?",
+        "optionen": ["Innerhalb von 24 Stunden", "Innerhalb von 3 Tagen", "Innerhalb von 7 Tagen", "Innerhalb von 30 Tagen"],
+        "korrekt": 1,
+        "erklaerung": "Meldepflichtige Arbeitsunf\u00e4lle (Arbeitsunf\u00e4higkeit > 3 Tage) m\u00fcssen innerhalb von 3 Tagen der Berufsgenossenschaft gemeldet werden. Bei t\u00f6dlichen Unf\u00e4llen sofort."
+      },
+      {
+        "frage": "Welche Notrufnummer gilt in Deutschland f\u00fcr Feuerwehr und Rettungsdienst?",
+        "optionen": ["110", "112", "115", "118"],
+        "korrekt": 1,
+        "erklaerung": "Die europaweite Notrufnummer 112 erreicht Feuerwehr und Rettungsdienst. Die 110 ist die Polizei-Notrufnummer."
+      },
+      {
+        "frage": "Welche Aufgabe hat der Sicherheitsbeauftragte im Betrieb?",
+        "optionen": ["Unterweisungen durchf\u00fchren", "Den Arbeitgeber bei der Arbeitssicherheit unterst\u00fctzen", "Bussgelder verh\u00e4ngen", "Gef\u00e4hrdungsbeurteilungen erstellen"],
+        "korrekt": 1,
+        "erklaerung": "Der Sicherheitsbeauftragte unterst\u00fctzt den Arbeitgeber ehrenamtlich bei der Arbeitssicherheit (\u00a722 SGB VII). Er hat keine Weisungsbefugnis und haftet nicht."
+      },
+      {
+        "frage": "Was ist der Hauptzweck einer Gef\u00e4hrdungsbeurteilung?",
+        "optionen": ["Dokumentation f\u00fcr die BG", "Systematische Ermittlung und Bewertung von Gef\u00e4hrdungen", "Einhaltung von DIN-Normen", "Versicherungsschutz sichern"],
+        "korrekt": 1,
+        "erklaerung": "Die Gef\u00e4hrdungsbeurteilung dient der systematischen Ermittlung und Bewertung aller Gef\u00e4hrdungen am Arbeitsplatz, um geeignete Schutzma\u00dfnahmen festzulegen (\u00a75 ArbSchG)."
+      },
+      {
+        "frage": "Was ist der ASA (Arbeitsschutzausschuss)?",
+        "optionen": ["Ein Gremium ab 20 Besch\u00e4ftigten zur Beratung \u00fcber Arbeitsschutz", "Eine Beh\u00f6rde der Landesregierung", "Ein externes Pr\u00fcfinstitut", "Eine Abteilung der BG"],
+        "korrekt": 0,
+        "erklaerung": "Der ASA ist gem\u00e4\u00df \u00a711 ASiG in Betrieben ab 20 Besch\u00e4ftigten zu bilden. Er tagt viertelj\u00e4hrlich und ber\u00e4t \u00fcber Arbeitsschutz und Unfallverh\u00fctung."
+      },
+      {
+        "frage": "Welches Recht haben Arbeitnehmer bei unmittelbarer Gefahr?",
+        "optionen": ["Recht auf Gefahrenzulage", "Recht, die Arbeit einzustellen", "Recht auf sofortige K\u00fcndigung", "Recht auf doppelten Lohn"],
+        "korrekt": 1,
+        "erklaerung": "Bei unmittelbarer erheblicher Gefahr d\u00fcrfen Besch\u00e4ftigte die Arbeit einstellen und den Gefahrenbereich verlassen (\u00a79 Abs. 3 ArbSchG), ohne dass ihnen daraus Nachteile entstehen."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "brandschutz",
+    "titel": "Brandschutz",
+    "kategorie": "Sicherheit",
+    "icon": "Flame",
+    "dauer": "10 Min",
+    "rechtsgrundlage": "ASR A2.2, ArbSchG \u00a710",
+    "beschreibung": "Brandschutzunterweisung: Brandklassen, L\u00f6schmittel, Verhalten im Brandfall, Fluchtweg-Kennzeichnung und Feuerl\u00f6scher-Bedienung.",
+    "lernziele": [
+      "Brandklassen A-F unterscheiden",
+      "L\u00f6schmittel korrekt zuordnen",
+      "Verhalten im Brandfall beherrschen",
+      "Fluchtweg-Kennzeichnung erkennen",
+      "Feuerl\u00f6scher bedienen k\u00f6nnen"
+    ],
+    "fragen": [
+      {
+        "frage": "Welche Brandklasse umfasst brennende Metalle?",
+        "optionen": ["Brandklasse A", "Brandklasse B", "Brandklasse C", "Brandklasse D"],
+        "korrekt": 3,
+        "erklaerung": "Brandklasse D umfasst Metallbr\u00e4nde (z.B. Aluminium, Magnesium). F\u00fcr Metallbr\u00e4nde darf KEIN Wasser verwendet werden \u2013 nur spezielles Metallbrandpulver."
+      },
+      {
+        "frage": "Welches L\u00f6schmittel ist f\u00fcr Fettbr\u00e4nde (Brandklasse F) geeignet?",
+        "optionen": ["Wasser", "CO2-L\u00f6scher", "Spezial-Fettbrandl\u00f6scher", "ABC-Pulver"],
+        "korrekt": 2,
+        "erklaerung": "Fettbr\u00e4nde (Klasse F) d\u00fcrfen NIE mit Wasser gel\u00f6scht werden (Fettexplosion!). Es sind spezielle Fettbrandl\u00f6scher oder L\u00f6schdecken zu verwenden."
+      },
+      {
+        "frage": "Was ist die richtige Reihenfolge im Brandfall?",
+        "optionen": ["L\u00f6schen, Alarmieren, Retten", "Retten, Alarmieren, L\u00f6schen", "Alarmieren, Retten, L\u00f6schen", "Retten, L\u00f6schen, Alarmieren"],
+        "korrekt": 1,
+        "erklaerung": "Die korrekte Reihenfolge lautet: 1. Retten (Menschenleben gehen vor), 2. Alarmieren (Notruf 112), 3. L\u00f6schen (nur wenn gefahrlos m\u00f6glich)."
+      },
+      {
+        "frage": "Wie sind Fluchtwege gekennzeichnet?",
+        "optionen": ["Rote Pfeile auf wei\u00dfem Grund", "Wei\u00dfe Pfeile auf gr\u00fcnem Grund", "Gelbe Pfeile auf schwarzem Grund", "Blaue Pfeile auf wei\u00dfem Grund"],
+        "korrekt": 1,
+        "erklaerung": "Fluchtwege werden gem\u00e4\u00df ASR A1.3 mit wei\u00dfen Piktogrammen (laufende Person + Pfeil) auf gr\u00fcnem Grund gekennzeichnet. Die Beschilderung muss nachleuchtend sein."
+      },
+      {
+        "frage": "Wie bedient man einen Feuerl\u00f6scher korrekt?",
+        "optionen": ["Von oben nach unten l\u00f6schen", "Sicherung ziehen, Schlauch richten, Hebel dr\u00fccken, Sto\u00dfweise l\u00f6schen", "M\u00f6glichst nah an die Flamme halten", "Den gesamten Inhalt auf einmal entleeren"],
+        "korrekt": 1,
+        "erklaerung": "Korrekte Bedienung: Sicherungsstift ziehen, Schlauch auf den Brandherd richten, Hebel dr\u00fccken, sto\u00dfweise und von unten nach oben l\u00f6schen. Windrichtung beachten!"
+      },
+      {
+        "frage": "Wie hoch ist die vorgeschriebene Brandschutzhelfer-Quote?",
+        "optionen": ["2% der Besch\u00e4ftigten", "5% der Besch\u00e4ftigten", "10% der Besch\u00e4ftigten", "Jeder f\u00fcnfte Mitarbeiter"],
+        "korrekt": 1,
+        "erklaerung": "Gem\u00e4\u00df ASR A2.2 m\u00fcssen mindestens 5% der Besch\u00e4ftigten als Brandschutzhelfer ausgebildet sein. Bei erh\u00f6hter Brandgefahr kann eine h\u00f6here Quote erforderlich sein."
+      },
+      {
+        "frage": "Wo gilt ein absolutes Rauch- und Feuerverbot?",
+        "optionen": ["Nur in B\u00fcros", "In gekennzeichneten Ex-Schutzzonen und Lagerr\u00e4umen", "Nur im Au\u00dfenbereich", "Nur in der Kantine"],
+        "korrekt": 1,
+        "erklaerung": "Ein absolutes Rauch- und Feuerverbot gilt in allen gekennzeichneten Bereichen, insbesondere Ex-Schutzzonen, Lagerr\u00e4umen f\u00fcr brennbare Stoffe und in der N\u00e4he von Gasflaschen."
+      },
+      {
+        "frage": "Welche Notrufnummer w\u00e4hlen Sie bei einem Brand?",
+        "optionen": ["110", "112", "115", "116"],
+        "korrekt": 1,
+        "erklaerung": "Bei einem Brand ist die 112 zu w\u00e4hlen (Feuerwehr und Rettungsdienst). Wichtig: 5-W-Regel beachten (Wer, Was, Wo, Wie viele, Warten auf R\u00fcckfragen)."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "erste-hilfe",
+    "titel": "Erste Hilfe",
+    "kategorie": "Sicherheit",
+    "icon": "Heart",
+    "dauer": "10 Min",
+    "rechtsgrundlage": "DGUV Vorschrift 1 \u00a726, ArbSchG \u00a710",
+    "beschreibung": "Erste-Hilfe-Unterweisung: Ersthelfer-Quote, Rettungskette, stabile Seitenlage, Reanimation und AED-Einsatz.",
+    "lernziele": [
+      "Ersthelfer-Quote kennen",
+      "Rettungskette verstehen",
+      "Stabile Seitenlage durchf\u00fchren",
+      "Herz-Lungen-Wiederbelebung anwenden",
+      "AED bedienen k\u00f6nnen"
+    ],
+    "fragen": [
+      {
+        "frage": "Wie hoch ist die Mindest-Ersthelfer-Quote im Unternehmen?",
+        "optionen": ["5% der anwesenden Versicherten", "10% der anwesenden Versicherten", "15% der anwesenden Versicherten", "Mindestens 2 Ersthelfer"],
+        "korrekt": 1,
+        "erklaerung": "In Verwaltungs- und Handelsbetrieben sind 5%, in sonstigen Betrieben 10% der anwesenden Versicherten als Ersthelfer auszubilden (DGUV Vorschrift 1 \u00a726)."
+      },
+      {
+        "frage": "Was ist die richtige Reihenfolge der Rettungskette?",
+        "optionen": ["Notruf \u2192 Erste Hilfe \u2192 Absichern \u2192 Transport", "Absichern \u2192 Notruf \u2192 Erste Hilfe \u2192 Rettungsdienst", "Erste Hilfe \u2192 Absichern \u2192 Notruf \u2192 Transport", "Transport \u2192 Notruf \u2192 Absichern \u2192 Erste Hilfe"],
+        "korrekt": 1,
+        "erklaerung": "Die Rettungskette: 1. Absichern/Eigenschutz, 2. Notruf (112), 3. Erste Hilfe leisten, 4. Rettungsdienst \u00fcbernimmt. Eigenschutz geht immer vor!"
+      },
+      {
+        "frage": "Wann bringen Sie jemanden in die stabile Seitenlage?",
+        "optionen": ["Bei Knochenbruch", "Bei Bewusstlosigkeit mit vorhandener Atmung", "Bei Herzstillstand", "Bei starker Blutung"],
+        "korrekt": 1,
+        "erklaerung": "Die stabile Seitenlage wird bei Bewusstlosigkeit MIT vorhandener Atmung angewendet, um die Atemwege freizuhalten und Aspiration zu verhindern."
+      },
+      {
+        "frage": "Wie lautet das korrekte Verh\u00e4ltnis bei der Herz-Lungen-Wiederbelebung f\u00fcr Erwachsene?",
+        "optionen": ["15 Kompressionen : 1 Beatmung", "30 Kompressionen : 2 Beatmungen", "10 Kompressionen : 3 Beatmungen", "20 Kompressionen : 2 Beatmungen"],
+        "korrekt": 1,
+        "erklaerung": "Das Verh\u00e4ltnis ist 30:2 (30 Brustkompressionen gefolgt von 2 Beatmungen). Drucktiefe: 5\u20136 cm, Frequenz: 100\u2013120/min. Ohne Beatmung nur dr\u00fccken!"
+      },
+      {
+        "frage": "Was ist bei einem AED (Automatisierter Externer Defibrillator) zu beachten?",
+        "optionen": ["Nur Ersthelfer d\u00fcrfen ihn benutzen", "Sprachanweisungen des Ger\u00e4ts folgen", "Nur bei bewusstlosen Kindern anwenden", "AED ersetzt die Herzdruckmassage vollst\u00e4ndig"],
+        "korrekt": 1,
+        "erklaerung": "Ein AED kann von jedem bedient werden \u2013 einfach den Sprachanweisungen folgen. Pads aufkleben, Analyse abwarten, bei Empfehlung Schock ausl\u00f6sen. Zwischen Schocks weiter dr\u00fccken!"
+      },
+      {
+        "frage": "Welche Informationen geh\u00f6ren zum Notruf (5-W-Schema)?",
+        "optionen": ["Wetter, Wind, Weg, Wasser, Werkzeug", "Wer, Was, Wo, Wie viele, Warten", "Warum, Wie, Wann, Wer, Wohin", "Wer, Wie, Woher, Wem, Warum"],
+        "korrekt": 1,
+        "erklaerung": "Die 5 W: Wer ruft an? Was ist passiert? Wo ist es passiert? Wie viele Verletzte? Warten auf R\u00fcckfragen! Nicht auflegen, bis die Leitstelle das Gespr\u00e4ch beendet."
+      },
+      {
+        "frage": "Was muss im Verbandbuch dokumentiert werden?",
+        "optionen": ["Nur schwere Verletzungen", "Jede Erste-Hilfe-Leistung im Betrieb", "Nur Arbeitsunf\u00e4lle mit Arztbesuch", "Nur Unf\u00e4lle mit Krankschreibung"],
+        "korrekt": 1,
+        "erklaerung": "Jede Erste-Hilfe-Leistung muss im Verbandbuch dokumentiert werden (DGUV Vorschrift 1 \u00a724). Aufbewahrungsfrist: 5 Jahre. Wichtig f\u00fcr sp\u00e4tere BG-Anspr\u00fcche."
+      },
+      {
+        "frage": "Wie oft muss die Ersthelfer-Ausbildung aufgefrischt werden?",
+        "optionen": ["Jedes Jahr", "Alle 2 Jahre", "Alle 3 Jahre", "Alle 5 Jahre"],
+        "korrekt": 1,
+        "erklaerung": "Die Ersthelfer-Fortbildung ist alle 2 Jahre erforderlich (9 Unterrichtseinheiten). Ohne Auffrischung verf\u00e4llt die Qualifikation."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "persoenliche-schutzausruestung",
+    "titel": "Pers\u00f6nliche Schutzausr\u00fcstung (PSA)",
+    "kategorie": "Sicherheit",
+    "icon": "HardHat",
+    "dauer": "12 Min",
+    "rechtsgrundlage": "PSA-BV, DGUV Regel 112-189",
+    "beschreibung": "PSA-Unterweisung: Kategorien, Arbeitgeber- und Arbeitnehmerpflichten, Sichtpr\u00fcfung, Lagerung und Dokumentation.",
+    "lernziele": [
+      "PSA-Kategorien I-III unterscheiden",
+      "Pflichten von Arbeitgeber und Arbeitnehmer kennen",
+      "Sichtpr\u00fcfung vor Gebrauch durchf\u00fchren",
+      "PSA korrekt lagern",
+      "M\u00e4ngel melden k\u00f6nnen"
+    ],
+    "fragen": [
+      {
+        "frage": "In welche Kategorien wird PSA eingeteilt?",
+        "optionen": ["Typ A, B und C", "Kategorie I, II und III", "Stufe 1 bis 5", "Klasse S, M und L"],
+        "korrekt": 1,
+        "erklaerung": "PSA wird gem\u00e4\u00df EU-Verordnung 2016/425 in drei Kategorien eingeteilt: I (geringe Risiken), II (mittlere Risiken), III (t\u00f6dliche/irreversible Risiken, z.B. PSAgA, Atemschutz)."
+      },
+      {
+        "frage": "Wer ist f\u00fcr die Bereitstellung der PSA verantwortlich?",
+        "optionen": ["Der Arbeitnehmer", "Der Arbeitgeber", "Die Berufsgenossenschaft", "Der Sicherheitsbeauftragte"],
+        "korrekt": 1,
+        "erklaerung": "Der Arbeitgeber muss die erforderliche PSA auf seine Kosten bereitstellen und instand halten (\u00a73 PSA-BV). Die PSA muss dem Stand der Technik entsprechen."
+      },
+      {
+        "frage": "Was ist die Hauptpflicht der Besch\u00e4ftigten bei PSA?",
+        "optionen": ["PSA selbst beschaffen", "PSA bestimmungsgem\u00e4\u00df benutzen und auf M\u00e4ngel pr\u00fcfen", "PSA einmal j\u00e4hrlich testen", "PSA nach Ablaufdatum entsorgen"],
+        "korrekt": 1,
+        "erklaerung": "Besch\u00e4ftigte m\u00fcssen die PSA bestimmungsgem\u00e4\u00df benutzen und vor jeder Benutzung auf offensichtliche M\u00e4ngel pr\u00fcfen (\u00a715 ArbSchG, PSA-BV)."
+      },
+      {
+        "frage": "Was muss vor jeder Benutzung der PSA durchgef\u00fchrt werden?",
+        "optionen": ["Eine technische Pr\u00fcfung durch Sachkundige", "Eine Sichtpr\u00fcfung durch den Benutzer", "Ein Labortest", "Eine Dokumentation im Pr\u00fcfbuch"],
+        "korrekt": 1,
+        "erklaerung": "Vor jeder Benutzung ist eine Sichtpr\u00fcfung durchzuf\u00fchren: Besch\u00e4digungen, Verschlei\u00df, Vollst\u00e4ndigkeit, Verfallsdatum. Defekte PSA darf NICHT verwendet werden."
+      },
+      {
+        "frage": "Wie muss PSA gelagert werden?",
+        "optionen": ["An einem beliebigen Ort", "Gesch\u00fctzt vor UV-Strahlung, Feuchtigkeit und Chemikalien", "Zusammen mit Gefahrstoffen", "Nur im Freien"],
+        "korrekt": 1,
+        "erklaerung": "PSA muss sauber, trocken und gesch\u00fctzt vor UV-Strahlung, extremen Temperaturen und Chemikalien gelagert werden. Herstelleranweisungen beachten!"
+      },
+      {
+        "frage": "Was muss der Arbeitgeber dokumentieren?",
+        "optionen": ["Nur die Beschaffungskosten", "Bereitstellung, Unterweisung und Pr\u00fcfung der PSA", "Nur die Herstellerdaten", "Nichts, PSA ist formfrei"],
+        "korrekt": 1,
+        "erklaerung": "Dokumentiert werden m\u00fcssen: Gef\u00e4hrdungsbeurteilung mit PSA-Auswahl, Bereitstellung, Unterweisung in der Benutzung sowie Pr\u00fcf- und Wartungsnachweise."
+      },
+      {
+        "frage": "Auf welcher Grundlage wird die geeignete PSA ausgew\u00e4hlt?",
+        "optionen": ["Preis-Leistungs-Verh\u00e4ltnis", "Gef\u00e4hrdungsbeurteilung", "Mitarbeiterwunsch", "Lieferantenempfehlung"],
+        "korrekt": 1,
+        "erklaerung": "Die PSA-Auswahl basiert auf der Gef\u00e4hrdungsbeurteilung (\u00a75 ArbSchG). Die technischen und organisatorischen Ma\u00dfnahmen haben gem\u00e4\u00df STOP-Prinzip Vorrang vor PSA."
+      },
+      {
+        "frage": "Was m\u00fcssen Sie tun, wenn Sie einen Mangel an Ihrer PSA feststellen?",
+        "optionen": ["Weiterbenutzen bis zum n\u00e4chsten Pr\u00fcftermin", "Sofort dem Vorgesetzten melden und PSA nicht verwenden", "Selbst reparieren", "Ins Pr\u00fcfbuch eintragen und weiterarbeiten"],
+        "korrekt": 1,
+        "erklaerung": "M\u00e4ngel m\u00fcssen sofort dem Vorgesetzten gemeldet werden. Defekte PSA darf NICHT weiter verwendet werden \u2013 Austausch muss umgehend erfolgen."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "gefahrstoffe",
+    "titel": "Gefahrstoffe",
+    "kategorie": "Gefahrstoffe",
+    "icon": "FlaskConical",
+    "dauer": "15 Min",
+    "rechtsgrundlage": "GefStoffV \u00a714, TRGS 555",
+    "beschreibung": "Gefahrstoff-Unterweisung: GHS-Piktogramme, H- und P-S\u00e4tze, Sicherheitsdatenblatt, Substitutionspflicht und CMR-Stoffe.",
+    "lernziele": [
+      "GHS-Piktogramme erkennen",
+      "H- und P-S\u00e4tze verstehen",
+      "Sicherheitsdatenblatt lesen",
+      "Substitutionspflicht kennen",
+      "CMR-Stoffe identifizieren"
+    ],
+    "fragen": [
+      {
+        "frage": "Wie viele GHS-Gefahrenpiktogramme gibt es?",
+        "optionen": ["5", "7", "9", "12"],
+        "korrekt": 2,
+        "erklaerung": "Es gibt 9 GHS-Piktogramme: Flamme, Flamme \u00fcber Kreis, Gasflasche, \u00c4tzwirkung, Totenkopf, Ausrufezeichen, Gesundheitsgefahr, Umwelt, Explosion."
+      },
+      {
+        "frage": "Was bedeuten H-S\u00e4tze auf einem Etikett?",
+        "optionen": ["Handhabungshinweise", "Gefahrenhinweise (Hazard Statements)", "Herstellerhinweise", "Hygienehinweise"],
+        "korrekt": 1,
+        "erklaerung": "H-S\u00e4tze (Hazard Statements) sind standardisierte Gefahrenhinweise. Sie beschreiben die Art und den Schweregrad der Gef\u00e4hrdung (z.B. H225: Fl\u00fcssigkeit und Dampf leicht entz\u00fcndbar)."
+      },
+      {
+        "frage": "Was bedeuten P-S\u00e4tze auf einem Etikett?",
+        "optionen": ["Preishinweise", "Sicherheitshinweise (Precautionary Statements)", "Produkthinweise", "Pr\u00fcfhinweise"],
+        "korrekt": 1,
+        "erklaerung": "P-S\u00e4tze (Precautionary Statements) sind Sicherheitshinweise. Sie empfehlen Ma\u00dfnahmen zur Schadensbegrenzung (z.B. P210: Von Hitze, offener Flamme fernhalten)."
+      },
+      {
+        "frage": "Wie viele Abschnitte hat ein Sicherheitsdatenblatt (SDB)?",
+        "optionen": ["8 Abschnitte", "12 Abschnitte", "16 Abschnitte", "20 Abschnitte"],
+        "korrekt": 2,
+        "erklaerung": "Ein SDB gem\u00e4\u00df REACH-Verordnung hat 16 Abschnitte, u.a.: Gefahrenidentifizierung, Erste Hilfe, Brandschutz, Handhabung/Lagerung, Toxikologie, Entsorgung."
+      },
+      {
+        "frage": "Was regelt die Betriebsanweisung f\u00fcr Gefahrstoffe?",
+        "optionen": ["Nur den Einkaufspreis", "Gefahren, Schutzma\u00dfnahmen, Erste Hilfe und Entsorgung", "Nur die Lagertemperatur", "Nur den Lieferanten"],
+        "korrekt": 1,
+        "erklaerung": "Die Betriebsanweisung (\u00a714 GefStoffV) informiert in verst\u00e4ndlicher Form \u00fcber: Gefahrstoff, Gefahren, Schutzma\u00dfnahmen, Verhalten im Gefahrfall, Erste Hilfe und Entsorgung."
+      },
+      {
+        "frage": "Was bedeutet die Substitutionspflicht bei Gefahrstoffen?",
+        "optionen": ["Gefahrstoffe m\u00fcssen teurer eingekauft werden", "Gef\u00e4hrliche Stoffe m\u00fcssen durch weniger gef\u00e4hrliche ersetzt werden", "Stoffe m\u00fcssen importiert werden", "Stoffe d\u00fcrfen nicht gelagert werden"],
+        "korrekt": 1,
+        "erklaerung": "Die Substitutionspflicht (\u00a76 Abs. 1 GefStoffV) besagt: Gef\u00e4hrliche Stoffe m\u00fcssen durch weniger gef\u00e4hrliche ersetzt werden, wenn dies technisch m\u00f6glich und zumutbar ist."
+      },
+      {
+        "frage": "Wie m\u00fcssen Gefahrstoffe grunds\u00e4tzlich gelagert werden?",
+        "optionen": ["In offenen Regalen", "In gekennzeichneten, geeigneten Beh\u00e4ltern an zugelassenen Lagerorten", "In der N\u00e4he von Notausg\u00e4ngen", "Nur im Freien"],
+        "korrekt": 1,
+        "erklaerung": "Gefahrstoffe m\u00fcssen in gekennzeichneten, verschlossenen Beh\u00e4ltern an zugelassenen Lagerorten aufbewahrt werden. Zusammenlagerungsverbote und Mengengrenzen beachten (TRGS 510)."
+      },
+      {
+        "frage": "Was sind CMR-Stoffe?",
+        "optionen": ["Chemische Markierungsstoffe", "Krebserzeugende, erbgutver\u00e4ndernde oder fortpflanzungsgef\u00e4hrdende Stoffe", "Chemie-Mess-Reagenzien", "Cer-Magnesium-Reinstoffe"],
+        "korrekt": 1,
+        "erklaerung": "CMR-Stoffe sind karzinogen (C), mutagen (M) oder reproduktionstoxisch (R). F\u00fcr sie gelten besonders strenge Schutzma\u00dfnahmen (\u00a710 GefStoffV)."
+      },
+      {
+        "frage": "Was ist der AGW (Arbeitsplatzgrenzwert)?",
+        "optionen": ["Die maximale Arbeitszeit", "Die h\u00f6chstzul\u00e4ssige Konzentration eines Stoffs in der Atemluft", "Der maximale Einkaufspreis", "Die maximale Lagermenge"],
+        "korrekt": 1,
+        "erklaerung": "Der AGW ist die zeitlich gewichtete durchschnittliche Konzentration eines Stoffs in der Luft am Arbeitsplatz, bei der keine Gesundheitssch\u00e4den zu erwarten sind (8h/Tag, 40h/Woche)."
+      },
+      {
+        "frage": "Was geh\u00f6rt zu einem Hautschutzplan?",
+        "optionen": ["Nur Handschuhe", "Hautschutz vor der Arbeit, Hautpflege und Hautreinigung nach der Arbeit", "Nur Sonnenschutz", "Nur Erste-Hilfe-Ma\u00dfnahmen"],
+        "korrekt": 1,
+        "erklaerung": "Ein Hautschutzplan umfasst das 3-S\u00e4ulen-Modell: Hautschutz (vor der Arbeit), Hautreinigung (w\u00e4hrend/nach der Arbeit) und Hautpflege (nach der Arbeit)."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "ladungssicherung",
+    "titel": "Ladungssicherung",
+    "kategorie": "Fahrer",
+    "icon": "Truck",
+    "dauer": "12 Min",
+    "rechtsgrundlage": "VDI 2700, StVO \u00a722",
+    "beschreibung": "Ladungssicherung: Verantwortliche Personen, Sicherungsmethoden, Zurrmittel-Pr\u00fcfung und Reibbeiwerte.",
+    "lernziele": [
+      "Verantwortlichkeiten kennen",
+      "Sicherungsmethoden unterscheiden",
+      "Zurrmittel pr\u00fcfen",
+      "Reibbeiwerte beachten",
+      "Ablegereife erkennen"
+    ],
+    "fragen": [
+      {
+        "frage": "Wer ist f\u00fcr die Ladungssicherung verantwortlich?",
+        "optionen": ["Nur der Fahrer", "Verlader, Fahrer und Fahrzeughalter gemeinsam", "Nur der Spediteur", "Nur der Absender"],
+        "korrekt": 1,
+        "erklaerung": "Die Verantwortung liegt bei allen Beteiligten: Verlader (beladungssichere Verladung), Fahrer (Kontrolle/Sicherung), Halter (geeignetes Fahrzeug). Alle haften bei Verst\u00f6\u00dfen."
+      },
+      {
+        "frage": "Was versteht man unter kraftschl\u00fcssiger Ladungssicherung?",
+        "optionen": ["Ladung wird in Mulden verkeilt", "Ladung wird durch Niederzurren auf die Ladefl\u00e4che gepresst", "Ladung wird eingeschwei\u00dft", "Ladung wird mit Klebstoff fixiert"],
+        "korrekt": 1,
+        "erklaerung": "Beim Niederzurren wird die Ladung durch Zurrgurte auf die Ladefl\u00e4che gepresst. Die erh\u00f6hte Reibkraft verhindert das Verrutschen. Kombination mit Antirutschmatten erh\u00f6ht die Wirkung."
+      },
+      {
+        "frage": "Wann muss ein Zurrmittel aus dem Verkehr gezogen werden (Ablegereife)?",
+        "optionen": ["Nach 5 Jahren automatisch", "Bei Besch\u00e4digung, Verformung oder \u00dcberlastung", "Nur bei komplettem Bruch", "Nie, Zurrmittel halten ewig"],
+        "korrekt": 1,
+        "erklaerung": "Ablegereife liegt vor bei: Rissen, Schnitten, Verformungen, defekten N\u00e4hten, besch\u00e4digten Haken/Ratschen, fehlender Kennzeichnung oder nach \u00dcberlastung."
+      },
+      {
+        "frage": "Was beschreibt der Reibbeiwert (\u00b5)?",
+        "optionen": ["Das Gewicht der Ladung", "Die Haftung zwischen Ladung und Ladefl\u00e4che", "Die Zugkraft des Fahrzeugs", "Die Windgeschwindigkeit"],
+        "korrekt": 1,
+        "erklaerung": "Der Reibbeiwert beschreibt die Haftreibung zwischen Ladung und Ladefl\u00e4che. Holz auf Stahl: ca. 0,2\u20130,3, mit Antirutschmatte: ca. 0,5\u20130,6. Je h\u00f6her, desto weniger Sicherungskraft n\u00f6tig."
+      },
+      {
+        "frage": "Was bedeutet STF auf einem Zurrgurt?",
+        "optionen": ["Standard Test Force \u2013 die Vorspannkraft der Ratsche", "Sicherheits-Tragf\u00e4higkeit", "Stahl-Textil-Faser", "Stra\u00dfen-Transport-Festigkeit"],
+        "korrekt": 0,
+        "erklaerung": "STF (Standard Tension Force) ist die Vorspannkraft, die mit der Ratsche des Zurrgurts erzeugt werden kann. Sie ist auf dem Etikett angegeben (typisch 300\u2013500 daN)."
+      },
+      {
+        "frage": "Wer muss \u00fcber Ladungssicherung geschult sein?",
+        "optionen": ["Nur LKW-Fahrer", "Alle Personen, die an der Ladungssicherung beteiligt sind", "Nur Lagerarbeiter", "Nur Disponenten"],
+        "korrekt": 1,
+        "erklaerung": "Alle an der Ladungssicherung beteiligten Personen (Verlader, Fahrer, Verantwortliche) m\u00fcssen nachweislich geschult sein. Empfohlen: Schulung nach VDI 2700a."
+      },
+      {
+        "frage": "Was droht bei \u00dcberladung eines Fahrzeugs?",
+        "optionen": ["Keine Konsequenzen", "Bu\u00dfgeld, Punkte, Stillegung des Fahrzeugs", "Nur eine Verwarnung", "Nur h\u00f6here Maut"],
+        "korrekt": 1,
+        "erklaerung": "Bei \u00dcberladung drohen: Bu\u00dfgeld bis 425\u20ac (Fahrer) bzw. 425\u20ac (Halter), Punkte in Flensburg, Stillegung des Fahrzeugs und ggf. Erlaubnisversagung."
+      },
+      {
+        "frage": "Welche formschl\u00fcssige Ladungssicherung ist besonders effektiv?",
+        "optionen": ["Ladung frei auf der Ladefl\u00e4che", "L\u00fcckenlose Beladung von Stirnwand zu Stirnwand", "Ladung nur in der Mitte platzieren", "Ladung lose stapeln"],
+        "korrekt": 1,
+        "erklaerung": "Formschl\u00fcssige Sicherung (l\u00fcckenlose Beladung, Keile, Staupolster) ist besonders effektiv, weil die Ladung sich nicht bewegen kann. Ideal: Kombination aus Form- und Kraftschluss."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "staplerfahrer",
+    "titel": "Staplerfahrer-Unterweisung",
+    "kategorie": "Fahrer",
+    "icon": "Forklift",
+    "dauer": "10 Min",
+    "rechtsgrundlage": "DGUV Vorschrift 68 \u00a77, DGUV Grundsatz 308-001",
+    "beschreibung": "Flurpromoting-Unterweisung: Fahrbeauftragung, t\u00e4gliche Pr\u00fcfung, Lastdiagramm, Standsicherheit und Personenmitnahme.",
+    "lernziele": [
+      "Voraussetzungen f\u00fcr Staplerfahren kennen",
+      "T\u00e4gliche Einsatzpr\u00fcfung durchf\u00fchren",
+      "Lastdiagramm lesen",
+      "Standsicherheit verstehen",
+      "Verbotene Handlungen kennen"
+    ],
+    "fragen": [
+      {
+        "frage": "Ab welchem Alter darf man einen Gabelstapler f\u00fchren?",
+        "optionen": ["Ab 16 Jahren", "Ab 18 Jahren", "Ab 21 Jahren", "Kein Mindestalter"],
+        "korrekt": 1,
+        "erklaerung": "Das Mindestalter f\u00fcr das F\u00fchren von Flurfprderzeigen betr\u00e4gt 18 Jahre (\u00a77 DGUV Vorschrift 68). Ausnahme: Ab 16 Jahre unter Aufsicht in der Ausbildung."
+      },
+      {
+        "frage": "Was wird zus\u00e4tzlich zum Staplerschein ben\u00f6tigt?",
+        "optionen": ["Ein F\u00fchrerschein Klasse B", "Eine schriftliche Beauftragung durch den Arbeitgeber", "Ein Gesundheitszeugnis", "Eine TÜV-Pr\u00fcfung"],
+        "korrekt": 1,
+        "erklaerung": "Neben dem Staplerschein (Ausbildungsnachweis) ist eine schriftliche Beauftragung (Fahrauftrag) durch den Arbeitgeber erforderlich (\u00a77 DGUV Vorschrift 68)."
+      },
+      {
+        "frage": "Was muss vor jedem Einsatz des Staplers gepr\u00fcft werden?",
+        "optionen": ["Nur der Kraftstoffstand", "Funktion von Bremsen, Lenkung, Hydraulik, Beleuchtung und Warneinrichtungen", "Nur die Reifen", "Nur das \u00d6l"],
+        "korrekt": 1,
+        "erklaerung": "Die t\u00e4gliche Einsatzpr\u00fcfung umfasst: Bremsen, Lenkung, Hydraulik, Gabel/Anbauger\u00e4te, Reifen, Beleuchtung, Hupe, Betriebsstoffe. M\u00e4ngel sofort melden!"
+      },
+      {
+        "frage": "Was zeigt das Lastdiagramm eines Staplers an?",
+        "optionen": ["Den Kraftstoffverbrauch", "Die maximal zul\u00e4ssige Traglast in Abh\u00e4ngigkeit vom Lastschwerpunkt", "Die H\u00f6chstgeschwindigkeit", "Die Reifengr\u00f6\u00dfe"],
+        "korrekt": 1,
+        "erklaerung": "Das Lastdiagramm zeigt die zul\u00e4ssige Traglast abh\u00e4ngig vom Lastschwerpunktabstand. Je weiter der Schwerpunkt von der Gabel entfernt ist, desto geringer die zul\u00e4ssige Last."
+      },
+      {
+        "frage": "Was ist der h\u00e4ufigste Grund f\u00fcr Staplerunf\u00e4lle?",
+        "optionen": ["Technischer Defekt", "Kippen durch \u00dcberlastung oder zu schnelle Kurvenfahrt", "Kraftstoffmangel", "Defekte Beleuchtung"],
+        "korrekt": 1,
+        "erklaerung": "Die h\u00e4ufigste Unfallursache ist das Kippen des Staplers durch \u00dcberlastung, zu schnelle Kurvenfahrt, Fahren mit angehobener Last oder unebenen Untergrund."
+      },
+      {
+        "frage": "Ist die Personenmitnahme auf dem Stapler erlaubt?",
+        "optionen": ["Ja, immer", "Nein, grunds\u00e4tzlich verboten (Ausnahme: zugelassener Mitfahrersitz)", "Nur bei kurzen Strecken", "Nur auf der Gabel bei Stillstand"],
+        "korrekt": 1,
+        "erklaerung": "Die Personenmitnahme ist grunds\u00e4tzlich verboten! Ausnahme: Vom Hersteller zugelassener Mitfahrersitz. Personen d\u00fcrfen NIE auf der Gabel transportiert werden."
+      },
+      {
+        "frage": "Welche H\u00f6chstgeschwindigkeit gilt in Geb\u00e4uden f\u00fcr Stapler?",
+        "optionen": ["Keine Begrenzung", "Schrittgeschwindigkeit (max. 5-6 km/h)", "Max. 10 km/h", "Max. 15 km/h"],
+        "korrekt": 1,
+        "erklaerung": "In Geb\u00e4uden, an un\u00fcbersichtlichen Stellen und bei Fu\u00dfg\u00e4ngerverkehr gilt Schrittgeschwindigkeit (ca. 5\u20136 km/h). Im Freien betriebsintern geregelt."
+      },
+      {
+        "frage": "Was muss bei Elektrostaplern besonders beachtet werden?",
+        "optionen": ["Nichts Besonderes", "Batterieladebereich bel\u00fcften, keine offenen Flammen, S\u00e4urespritzer vermeiden", "Batterie nie aufladen", "Nur drau\u00dfen laden"],
+        "korrekt": 1,
+        "erklaerung": "Beim Laden von Blei-S\u00e4ure-Batterien entsteht Wasserstoff (Explosionsgefahr). Der Ladebereich muss bel\u00fcftet sein, offene Flammen sind verboten, Schutzbrille und Handschuhe tragen!"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "kranfuehrer",
+    "titel": "Kranf\u00fchrer-Unterweisung",
+    "kategorie": "Fahrer",
+    "icon": "Crane",
+    "dauer": "10 Min",
+    "rechtsgrundlage": "DGUV Vorschrift 52, DGUV Grundsatz 309-003",
+    "beschreibung": "Kran-Unterweisung: Handzeichen, Tragf\u00e4higkeit, Windgrenzen, Pr\u00fcfpflichten und Anschlagmittel.",
+    "lernziele": [
+      "Handzeichen f\u00fcr Kranf\u00fchrung kennen",
+      "Tragf\u00e4higkeitstabelle lesen",
+      "Windgrenzen beachten",
+      "Anschlagmittel pr\u00fcfen",
+      "Sicherheitsabst\u00e4nde einhalten"
+    ],
+    "fragen": [
+      {
+        "frage": "Wie wird dem Kranf\u00fchrer das Zeichen f\u00fcr 'Halt/Stopp' gegeben?",
+        "optionen": ["Beide Arme seitlich ausstrecken", "Arm hochheben und schnell senken", "Eine Hand flach nach oben zeigen", "Beide Arme \u00fcber dem Kopf kreuzen"],
+        "korrekt": 0,
+        "erklaerung": "Das Handzeichen 'Halt' ist: Arm mit flacher Hand seitlich ausstrecken und deutlich zeigen. Bei Gefahr: 'Not-Halt' \u2013 beide Arme seitlich ausstrecken und schwenken."
+      },
+      {
+        "frage": "Wo finden Sie Angaben zur maximalen Tragf\u00e4higkeit eines Krans?",
+        "optionen": ["Im Fahrzeugschein", "In der Tragf\u00e4higkeitstabelle/Lastmoment-Begrenzung", "Auf dem Typenschild des Motors", "Im Wartungshandbuch"],
+        "korrekt": 1,
+        "erklaerung": "Die Tragf\u00e4higkeit ist in der Tragf\u00e4higkeitstabelle (Lastkurve) angegeben. Sie h\u00e4ngt von Ausladung, Hubh\u00f6he und Aufstellungsbedingungen ab."
+      },
+      {
+        "frage": "Ab welcher Windst\u00e4rke m\u00fcssen Kranarbeiten eingestellt werden?",
+        "optionen": ["Ab Windst\u00e4rke 4", "Ab Windst\u00e4rke 6 (je nach Krantyp und Herstellerangabe)", "Erst ab Orkanwarnung", "Wind spielt keine Rolle"],
+        "korrekt": 1,
+        "erklaerung": "In der Regel m\u00fcssen Kranarbeiten ab Windst\u00e4rke 6 (ca. 50 km/h) eingestellt werden. Die genauen Grenzwerte stehen in der Betriebsanleitung des Krans."
+      },
+      {
+        "frage": "Welcher Sicherheitsabstand muss zu elektrischen Freileitungen eingehalten werden?",
+        "optionen": ["Kein Abstand n\u00f6tig", "Mind. 3 m bei Niederspannung, mind. 5 m bei Hochspannung", "1 Meter reicht immer", "Nur 50 cm"],
+        "korrekt": 1,
+        "erklaerung": "Sicherheitsabstand zu Freileitungen: bis 1 kV mind. 1 m, bis 110 kV mind. 3 m, bis 380 kV mind. 5 m. Im Zweifel immer den gr\u00f6\u00dferen Abstand w\u00e4hlen!"
+      },
+      {
+        "frage": "Wie oft muss ein Kran durch einen Sachkundigen gepr\u00fcft werden?",
+        "optionen": ["Alle 6 Monate", "Mindestens einmal j\u00e4hrlich", "Alle 3 Jahre", "Nur bei Sch\u00e4den"],
+        "korrekt": 1,
+        "erklaerung": "Krane m\u00fcssen mindestens einmal j\u00e4hrlich durch einen Sachkundigen gepr\u00fcft werden (DGUV Vorschrift 52 \u00a726). Zus\u00e4tzlich t\u00e4gliche Sicht- und Funktionspr\u00fcfung durch den Kranf\u00fchrer."
+      },
+      {
+        "frage": "Was muss bei Lastaufnahmemitteln beachtet werden?",
+        "optionen": ["Sie brauchen keine Kennzeichnung", "Tragf\u00e4higkeit, Pr\u00fcfplakette und einwandfreier Zustand", "Sie d\u00fcrfen beliebig \u00fcberlastet werden", "Nur das Gewicht ist wichtig"],
+        "korrekt": 1,
+        "erklaerung": "Lastaufnahmemittel m\u00fcssen gekennzeichnet sein (WLL/Tragf\u00e4higkeit), regelm\u00e4\u00dfig gepr\u00fcft werden und in einwandfreiem Zustand sein. Defekte sofort aus dem Verkehr ziehen!"
+      },
+      {
+        "frage": "Wann liegt Ablegereife bei Anschlagmitteln vor?",
+        "optionen": ["Nur bei komplettem Bruch", "Bei Drahtbr\u00fcchen, Verformungen, Verschlei\u00df oder fehlender Kennzeichnung", "Nie, Anschlagmittel halten ewig", "Nur nach 10 Jahren"],
+        "korrekt": 1,
+        "erklaerung": "Ablegereife liegt vor bei: Drahtbr\u00fcchen (Stahlseile), Rissen/Schnitten (Hebebänder), Verformung/Verschlei\u00df (Ketten), fehlender Kennzeichnung, oder nach \u00dcberlastung."
+      },
+      {
+        "frage": "Darf ein Kranf\u00fchrer allein ohne Einweiser arbeiten?",
+        "optionen": ["Ja, immer", "Nur wenn der Kranf\u00fchrer die Last und den Absetzbereich st\u00e4ndig einsehen kann", "Nein, nie", "Nur bei kleinen Lasten"],
+        "korrekt": 1,
+        "erklaerung": "Alleinarbeit ist nur erlaubt, wenn der Kranf\u00fchrer die Last und den gesamten Arbeitsbereich st\u00e4ndig einsehen kann. Andernfalls ist ein Einweiser zwingend erforderlich."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "psaga-hoehenarbeit",
+    "titel": "PSAgA / H\u00f6henarbeit",
+    "kategorie": "Hoehe",
+    "icon": "ArrowUpFromLine",
+    "dauer": "12 Min",
+    "rechtsgrundlage": "DGUV Regel 112-198, TRBS 2121",
+    "beschreibung": "H\u00f6henarbeits-Unterweisung: PSAgA ab 2 m, Auffanggurt-Pr\u00fcfung, Anschlagpunkte, H\u00e4ngetrauma und Rettungskonzept.",
+    "lernziele": [
+      "Einsatzgrenze PSAgA kennen (ab 2 m)",
+      "Auffanggurt pr\u00fcfen und anlegen",
+      "Geeignete Anschlagpunkte w\u00e4hlen",
+      "H\u00e4ngetrauma erkennen",
+      "Rettungskonzept verstehen"
+    ],
+    "fragen": [
+      {
+        "frage": "Ab welcher Absturzh\u00f6he ist grunds\u00e4tzlich PSAgA erforderlich?",
+        "optionen": ["Ab 1 Meter", "Ab 2 Metern", "Ab 3 Metern", "Ab 5 Metern"],
+        "korrekt": 1,
+        "erklaerung": "Gem\u00e4\u00df TRBS 2121 sind ab 2 m Absturzh\u00f6he Schutzma\u00dfnahmen erforderlich. PSAgA kommt zum Einsatz, wenn technische/organisatorische Ma\u00dfnahmen nicht ausreichen."
+      },
+      {
+        "frage": "Was muss bei der Auffanggurt-Pr\u00fcfung beachtet werden?",
+        "optionen": ["Nur das Ablaufdatum", "Zustand der Gurte, N\u00e4hte, Schnallen, Karabiner und Kennzeichnung", "Nur die Farbe", "Nur das Gewicht"],
+        "korrekt": 1,
+        "erklaerung": "Die Sichtpr\u00fcfung vor jedem Einsatz umfasst: Gurte (Risse, Abrieb), N\u00e4hte (intakt), Schnallen/Karabiner (Funktion), Kennzeichnung (lesbar), Ablaufdatum."
+      },
+      {
+        "frage": "Welche Anforderung muss ein Anschlagpunkt erf\u00fcllen?",
+        "optionen": ["Er muss bunt markiert sein", "Er muss f\u00fcr die Auffangkraft ausgelegt sein (mind. 10 kN)", "Er muss immer aus Stahl sein", "Er muss in 3 m H\u00f6he sein"],
+        "korrekt": 1,
+        "erklaerung": "Ein Anschlagpunkt muss f\u00fcr eine statische Last von mindestens 10 kN (ca. 1 Tonne) ausgelegt sein oder gem\u00e4\u00df EN 795 zertifiziert sein. Provisorische Punkte sind verboten!"
+      },
+      {
+        "frage": "Was ist ein H\u00e4ngetrauma (Orthostatischer Schock)?",
+        "optionen": ["H\u00f6henangst", "Lebensbedrohlicher Zustand durch l\u00e4ngeres bewegungsloses H\u00e4ngen im Gurt", "Ein Muskelkater", "Eine allergische Reaktion"],
+        "korrekt": 1,
+        "erklaerung": "H\u00e4ngetrauma tritt auf, wenn eine Person l\u00e4nger regungslos im Auffanggurt h\u00e4ngt. Durch Blutstau in den Beinen droht Kreislaufversagen. Rettung muss innerhalb von 20 Minuten erfolgen!"
+      },
+      {
+        "frage": "Was muss vor H\u00f6henarbeiten erstellt werden?",
+        "optionen": ["Ein Kostenvoranschlag", "Ein Rettungskonzept", "Ein Bautagebuch", "Eine Pressemitteilung"],
+        "korrekt": 1,
+        "erklaerung": "Vor jeder H\u00f6henarbeit mit PSAgA muss ein Rettungskonzept erstellt werden (DGUV Regel 112-198). Es muss sicherstellen, dass eine abgest\u00fcrzte Person innerhalb von 20 Minuten gerettet werden kann."
+      },
+      {
+        "frage": "Wie oft muss eine Sichtpr\u00fcfung der PSAgA durch den Benutzer erfolgen?",
+        "optionen": ["Einmal j\u00e4hrlich", "Vor jeder Benutzung", "Einmal pro Monat", "Nur bei Verdacht auf Sch\u00e4den"],
+        "korrekt": 1,
+        "erklaerung": "Vor JEDER Benutzung ist eine Sichtpr\u00fcfung durchzuf\u00fchren. Zus\u00e4tzlich ist mindestens einmal j\u00e4hrlich eine Pr\u00fcfung durch einen Sachkundigen (befähigte Person) erforderlich."
+      },
+      {
+        "frage": "Wie lang ist die maximale Nutzungsdauer von textilen PSAgA-Komponenten?",
+        "optionen": ["Unbegrenzt", "In der Regel max. 6-8 Jahre ab Herstellung (herstellerabh\u00e4ngig)", "Genau 10 Jahre", "Genau 20 Jahre"],
+        "korrekt": 1,
+        "erklaerung": "Die Nutzungsdauer textiler Komponenten liegt je nach Hersteller bei 6\u20138 Jahren ab Herstellungsdatum. Sie steht in der Betriebsanleitung. Nach Sturzbeanspruchung: sofort aussondern!"
+      },
+      {
+        "frage": "Was muss in der PSAgA-Dokumentation festgehalten werden?",
+        "optionen": ["Nur der Kaufpreis", "Benutzer, Einsatzdatum, Pr\u00fcfergebnisse und eventuelle Sturzbeanspruchung", "Nur das Herstellungsdatum", "Nichts, Dokumentation ist freiwillig"],
+        "korrekt": 1,
+        "erklaerung": "Die Dokumentation umfasst: Benutzer, Einsatzdaten, Pr\u00fcfergebnisse (Sicht-/Sachkundigenpr\u00fcfung), Sturzbeanspruchung, Reparaturen, und Aussonderung."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "elektrische-gefaehrdungen",
+    "titel": "Elektrische Gef\u00e4hrdungen",
+    "kategorie": "Elektro",
+    "icon": "Zap",
+    "dauer": "10 Min",
+    "rechtsgrundlage": "DGUV Vorschrift 3, VDE 1000-10",
+    "beschreibung": "Elektro-Unterweisung: 5 Sicherheitsregeln, Schutzkleinspannung, FI-Schutzschalter, Erste Hilfe bei Stromunfall.",
+    "lernziele": [
+      "5 Sicherheitsregeln anwenden",
+      "Schutzkleinspannung kennen",
+      "FI-Schutzschalter verstehen",
+      "Erste Hilfe bei Stromunfall leisten",
+      "EUP vs. EFK unterscheiden"
+    ],
+    "fragen": [
+      {
+        "frage": "Wie lauten die 5 Sicherheitsregeln in der richtigen Reihenfolge?",
+        "optionen": ["Erden, Freischalten, Sichern, Pr\u00fcfen, Kurzschlie\u00dfen", "Freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit feststellen, Erden und Kurzschlie\u00dfen, benachbarte Teile abdecken", "Pr\u00fcfen, Abschalten, Melden, Erden, Sichern", "Messen, Freischalten, Pr\u00fcfen, Trennen, Isolieren"],
+        "korrekt": 1,
+        "erklaerung": "Die 5 Sicherheitsregeln: 1. Freischalten, 2. Gegen Wiedereinschalten sichern, 3. Spannungsfreiheit feststellen, 4. Erden und Kurzschlie\u00dfen, 5. Benachbarte spannungsf\u00fchrende Teile abdecken."
+      },
+      {
+        "frage": "Bis zu welcher Spannung gilt Schutzkleinspannung (SELV)?",
+        "optionen": ["Bis 25 V AC", "Bis 50 V AC / 120 V DC", "Bis 100 V AC", "Bis 230 V AC"],
+        "korrekt": 1,
+        "erklaerung": "Schutzkleinspannung (SELV) gilt bis 50 V Wechselspannung (AC) bzw. 120 V Gleichspannung (DC). Unter normalen Bedingungen ist ein Stromschlag nicht gef\u00e4hrlich."
+      },
+      {
+        "frage": "Was ist die Funktion eines FI-Schutzschalters (RCD)?",
+        "optionen": ["\u00dcberlastschutz", "Schutz vor elektrischem Schlag durch Abschaltung bei Fehlerstrom", "Spannungsregelung", "Blitzschutz"],
+        "korrekt": 1,
+        "erklaerung": "Der FI-Schutzschalter (RCD) erkennt Fehlerstr\u00f6me (z.B. bei Ber\u00fchrung eines defekten Ger\u00e4ts) und schaltet innerhalb von 30 ms ab. Er sch\u00fctzt vor t\u00f6dlichem Stromschlag."
+      },
+      {
+        "frage": "Was ist die erste Ma\u00dfnahme bei einem Stromunfall?",
+        "optionen": ["Sofort die Person ber\u00fchren", "Stromkreis unterbrechen (Stecker ziehen/Sicherung ausschalten) unter Beachtung des Eigenschutzes", "Wasser \u00fcber die Person gie\u00dfen", "Nur den Notruf w\u00e4hlen"],
+        "korrekt": 1,
+        "erklaerung": "EIGENSCHUTZ ZUERST! Stromkreis unterbrechen (Stecker ziehen, Sicherung aus, Notaus). Niemals die Person unter Spannung ber\u00fchren! Dann Notruf 112 und Erste Hilfe."
+      },
+      {
+        "frage": "Was unterscheidet eine EUP von einer Elektrofachkraft (EFK)?",
+        "optionen": ["Kein Unterschied", "EUP ist elektrotechnisch unterwiesene Person ohne Fachausbildung, EFK hat Fachausbildung", "EUP darf alles, EFK nicht", "EFK ist immer der Vorgesetzte"],
+        "korrekt": 1,
+        "erklaerung": "EUP (Elektrotechnisch unterwiesene Person): unterwiesen, arbeitet unter Aufsicht einer EFK. EFK (Elektrofachkraft): abgeschlossene Fachausbildung, darf selbstständig arbeiten."
+      },
+      {
+        "frage": "Wie oft m\u00fcssen ortsver\u00e4nderliche elektrische Betriebsmittel gepr\u00fcft werden?",
+        "optionen": ["Nie", "Abh\u00e4ngig von der Gef\u00e4hrdungsbeurteilung, z.B. alle 6-12 Monate", "Alle 5 Jahre", "Nur bei Neuanschaffung"],
+        "korrekt": 1,
+        "erklaerung": "Die Pr\u00fcffristen werden in der Gef\u00e4hrdungsbeurteilung festgelegt. Richtwert gem\u00e4\u00df DGUV Vorschrift 3: B\u00fcro 24 Monate, Werkstatt/Baustelle 6 Monate, Fehlerstrom 6 Monate."
+      },
+      {
+        "frage": "Was bedeutet die IP-Schutzart IP44?",
+        "optionen": ["Schutz gegen Feuer", "Schutz gegen feste Fremdk\u00f6rper >1mm und Spritzwasser", "Kompletter Staubschutz und Wasserdichtigkeit", "Kein besonderer Schutz"],
+        "korrekt": 1,
+        "erklaerung": "IP44: Erste Ziffer 4 = Schutz gegen feste Fremdk\u00f6rper >1 mm, zweite Ziffer 4 = Schutz gegen Spritzwasser aus allen Richtungen. IP67 w\u00e4re staubdicht + zeitweiliges Untertauchen."
+      },
+      {
+        "frage": "Wof\u00fcr ist eine Gef\u00e4hrdungsbeurteilung bei elektrischen Anlagen besonders wichtig?",
+        "optionen": ["F\u00fcr die Versicherung", "Zur Festlegung von Schutzma\u00dfnahmen, Pr\u00fcffristen und Qualifikationsanforderungen", "Nur f\u00fcr die Dokumentation", "Nur f\u00fcr Neuanlagen"],
+        "korrekt": 1,
+        "erklaerung": "Die GBU f\u00fcr elektrische Anlagen legt fest: erforderliche Schutzma\u00dfnahmen, Pr\u00fcffristen, Qualifikation des Personals (EFK/EUP), Abschaltma\u00dfnahmen und Erste-Hilfe-Ausstattung."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "befahren-enger-raeume",
+    "titel": "Befahren enger R\u00e4ume",
+    "kategorie": "Sicherheit",
+    "icon": "Container",
+    "dauer": "12 Min",
+    "rechtsgrundlage": "DGUV Regel 113-004, TRGS 507",
+    "beschreibung": "Unterweisung Enge R\u00e4ume: Definition, Erlaubnisschein, Freimessen, Sicherungsposten und Rettungskonzept.",
+    "lernziele": [
+      "Enge R\u00e4ume definieren",
+      "Erlaubnisschein verstehen",
+      "Freimessen durchf\u00fchren",
+      "Sicherungsposten stellen",
+      "Rettungskonzept kennen"
+    ],
+    "fragen": [
+      {
+        "frage": "Was ist ein 'enger Raum' im Sinne der DGUV Regel 113-004?",
+        "optionen": ["Jeder Raum unter 10 m\u00b2", "Ein Raum mit begrenztem Zugang, nicht f\u00fcr dauerhaften Aufenthalt bestimmt", "Nur Rohrleitungen", "Nur Kanalisation"],
+        "korrekt": 1,
+        "erklaerung": "Enge R\u00e4ume sind R\u00e4ume mit begrenztem Zugang (z.B. Beh\u00e4lter, Silos, Sch\u00e4chte, Kan\u00e4le), die nicht f\u00fcr l\u00e4ngeren Aufenthalt vorgesehen sind und besondere Gef\u00e4hrdungen bergen."
+      },
+      {
+        "frage": "Was ist vor dem Befahren eines engen Raums zwingend erforderlich?",
+        "optionen": ["Nur eine m\u00fcndliche Anweisung", "Ein schriftlicher Erlaubnisschein (Befahrerlaubnis)", "Nur Arbeitskleidung", "Keine besonderen Vorbereitungen"],
+        "korrekt": 1,
+        "erklaerung": "Vor dem Befahren ist ein schriftlicher Erlaubnisschein (Befahrerlaubnis) erforderlich. Er dokumentiert: Gef\u00e4hrdungen, Schutzma\u00dfnahmen, Freimessergebnisse, Rettungskonzept."
+      },
+      {
+        "frage": "Welche Parameter werden beim Freimessen gemessen?",
+        "optionen": ["Nur Temperatur", "Sauerstoff (O2), explosionsf\u00e4hige Gase (Ex) und toxische Gase (Tox)", "Nur Luftfeuchtigkeit", "Nur CO2"],
+        "korrekt": 1,
+        "erklaerung": "Freimessen umfasst: O2 (19,5\u201323,5 Vol.-%), Ex (<10% UEG), toxische Gase (je nach erwartetem Stoff). Messung VOR und W\u00c4HREND der Arbeiten. 4-Gas-Messger\u00e4t verwenden!"
+      },
+      {
+        "frage": "Welche Aufgabe hat der Sicherungsposten?",
+        "optionen": ["Im Raum mitarbeiten", "St\u00e4ndig am Zugang stehen, Kontakt halten und im Notfall Rettung einleiten", "Nur den Erlaubnisschein aufbewahren", "Die Arbeiten fotografieren"],
+        "korrekt": 1,
+        "erklaerung": "Der Sicherungsposten steht st\u00e4ndig am Zugang, h\u00e4lt Sicht-/Sprechkontakt, darf den Posten NICHT verlassen und leitet im Notfall sofort die Rettung ein. Er darf nicht in den Raum einsteigen!"
+      },
+      {
+        "frage": "Was muss das Rettungskonzept sicherstellen?",
+        "optionen": ["Dass ein Arzt vor Ort ist", "Dass eine bewusstlose Person schnell aus dem engen Raum gerettet werden kann", "Dass ein Feuerwehrfahrzeug bereitsteht", "Dass alle Mitarbeiter tauchen k\u00f6nnen"],
+        "korrekt": 1,
+        "erklaerung": "Das Rettungskonzept muss die schnelle Rettung einer bewusstlosen Person gew\u00e4hrleisten: Rettungsausr\u00fcstung (Dreibock, Winde, Rettungsgurt), geschulte Retter, ge\u00fcbte Abläufe."
+      },
+      {
+        "frage": "Warum ist Bel\u00fcftung beim Befahren enger R\u00e4ume wichtig?",
+        "optionen": ["Wegen der W\u00e4rme", "Um Sauerstoffmangel und Schadstoffansammlung zu verhindern", "Nur f\u00fcr den Komfort", "Nur bei Regen"],
+        "korrekt": 1,
+        "erklaerung": "Bel\u00fcftung verhindert Sauerstoffmangel, Schadstoffansammlung und explosionsf\u00e4hige Atmosph\u00e4ren. Technische Bel\u00fcftung (Zuluft) muss VOR und W\u00c4HREND der Arbeiten erfolgen."
+      },
+      {
+        "frage": "Wie wird der Zugang zu engen R\u00e4umen gesteuert?",
+        "optionen": ["Jeder darf jederzeit rein", "Durch ein dokumentiertes Zugangssteuerungssystem mit Erlaubnisscheinen", "Nur per m\u00fcndlicher Absprache", "Durch ein Schloss am Eingang"],
+        "korrekt": 1,
+        "erklaerung": "Die Zugangssteuerung erfolgt \u00fcber den Erlaubnisschein: Nur eingetragene Personen d\u00fcrfen einsteigen, Schutzma\u00dfnahmen m\u00fcssen erf\u00fcllt sein, Sicherungsposten muss besetzt sein."
+      },
+      {
+        "frage": "Was ist bei der Notfall-Evakuierung aus engen R\u00e4umen zu beachten?",
+        "optionen": ["M\u00f6glichst viele Retter gleichzeitig hineinschicken", "Eigenschutz beachten \u2013 NICHT ohne Atemschutz in gef\u00e4hrdete Atmosph\u00e4re einsteigen", "Zuerst die Werkzeuge retten", "Nur von au\u00dfen rufen"],
+        "korrekt": 1,
+        "erklaerung": "EIGENSCHUTZ ZUERST! Bei gef\u00e4hrdeter Atmosph\u00e4re darf NICHT ohne Atemschutz eingestiegen werden. Rettung von au\u00dfen (Dreibock/Winde) hat Vorrang. Feuerwehr alarmieren!"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "ergonomie",
+    "titel": "Ergonomie am Arbeitsplatz",
+    "kategorie": "Gesundheit",
+    "icon": "PersonStanding",
+    "dauer": "8 Min",
+    "rechtsgrundlage": "LasthandhabV, ArbSt\u00e4ttV",
+    "beschreibung": "Ergonomie-Unterweisung: Heben und Tragen, Bildschirmarbeitsplatz, Pausenregelung und psychische Belastung.",
+    "lernziele": [
+      "Richtwerte f\u00fcr manuelles Heben kennen",
+      "Richtige Hebetechnik anwenden",
+      "Bildschirmarbeitsplatz ergonomisch gestalten",
+      "Pausenregelung einhalten",
+      "Psychische Belastung erkennen"
+    ],
+    "fragen": [
+      {
+        "frage": "Welcher Richtwert gilt f\u00fcr gelegentliches Heben bei M\u00e4nnern (18-45 Jahre)?",
+        "optionen": ["Max. 10 kg", "Max. 25 kg", "Max. 40 kg", "Keine Begrenzung"],
+        "korrekt": 2,
+        "erklaerung": "Der Richtwert f\u00fcr gelegentliches Heben bei M\u00e4nnern (18\u201345 Jahre) liegt bei ca. 40 kg (Leitmerkmalmethode). Bei h\u00e4ufigem Heben deutlich weniger. F\u00fcr Frauen gelten niedrigere Werte."
+      },
+      {
+        "frage": "Wie sieht die richtige Hebetechnik aus?",
+        "optionen": ["Mit gestreckten Beinen und rundem R\u00fccken", "In die Knie gehen, R\u00fccken gerade, Last k\u00f6rpernah anheben", "Last seitlich vom K\u00f6rper weghalten", "Schnell und ruckartig anheben"],
+        "korrekt": 1,
+        "erklaerung": "Richtige Hebetechnik: In die Knie gehen, R\u00fccken gerade halten, Last k\u00f6rpernah greifen, aus den Beinen heben, Verdrehung vermeiden. Bei schweren Lasten: Hebehilfen nutzen!"
+      },
+      {
+        "frage": "Was geh\u00f6rt zu einem ergonomischen Bildschirmarbeitsplatz?",
+        "optionen": ["Nur ein guter Stuhl", "Verstellbarer Stuhl, Bildschirm auf Augenh\u00f6he, ausreichend Beinfreiheit", "Nur ein gro\u00dfer Bildschirm", "Nur eine gute Beleuchtung"],
+        "korrekt": 1,
+        "erklaerung": "Ergonomischer Bildschirmarbeitsplatz: H\u00f6henverstellbarer Stuhl mit Lordosenst\u00fctze, Bildschirm-Oberkante auf Augenh\u00f6he, Arme im 90\u00b0-Winkel, ausreichend Beinfreiheit, blendfreie Beleuchtung."
+      },
+      {
+        "frage": "Welche Pausenregelung gilt bei Bildschirmarbeit?",
+        "optionen": ["Keine besondere Regel", "Regelm\u00e4\u00dfige Kurzpausen oder T\u00e4tigkeitswechsel (z.B. 5 Min nach 60 Min)", "Nur Mittagspause", "Alle 4 Stunden 15 Minuten"],
+        "korrekt": 1,
+        "erklaerung": "Bei Bildschirmarbeit sollen regelm\u00e4\u00dfig Kurzpausen oder T\u00e4tigkeitswechsel eingelegt werden (Empfehlung: 5\u201310 Min nach 50\u201360 Min). Mehrere kurze Pausen sind effektiver als wenige lange."
+      },
+      {
+        "frage": "Was sind typische Zwangshaltungen am Arbeitsplatz?",
+        "optionen": ["Nur Sitzen", "L\u00e4ngeres Arbeiten in geb\u00fcckter, kniender oder \u00dcberkopf-Haltung", "Nur Stehen", "Nur Gehen"],
+        "korrekt": 1,
+        "erklaerung": "Zwangshaltungen sind l\u00e4ngeres Arbeiten in geb\u00fcckter, kniender, hockender oder \u00dcberkopf-Position. Sie f\u00fchren zu Muskel-Skelett-Erkrankungen. Gegenma\u00dfnahmen: Wechselt\u00e4tigkeit, Hilfsmittel, Pausen."
+      },
+      {
+        "frage": "Was umfasst die Gef\u00e4hrdungsbeurteilung psychischer Belastung?",
+        "optionen": ["Nur die Arbeitszeit", "Arbeitsinhalt, Arbeitsorganisation, soziale Beziehungen und Arbeitsumgebung", "Nur das Gehalt", "Nur die F\u00fchrungskraft-Bewertung"],
+        "korrekt": 1,
+        "erklaerung": "Die GBU psychischer Belastung (\u00a75 ArbSchG) bewertet: Arbeitsinhalt (Monotonie, \u00dcberforderung), Organisation (Arbeitszeit, St\u00f6rungen), soziale Beziehungen (Konflikte), Umgebung (L\u00e4rm, Klima)."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "laerm-gehoerschutz",
+    "titel": "L\u00e4rm & Geh\u00f6rschutz",
+    "kategorie": "Gesundheit",
+    "icon": "Ear",
+    "dauer": "8 Min",
+    "rechtsgrundlage": "L\u00e4rmVibrationsArbSchV",
+    "beschreibung": "L\u00e4rm-Unterweisung: Ausl\u00f6sewerte, Geh\u00f6rschutz-Pflicht, L\u00e4rmbereiche-Kennzeichnung und Vorsorge.",
+    "lernziele": [
+      "Ausl\u00f6sewerte kennen (80/85 dB(A))",
+      "Geh\u00f6rschutz-Pflicht verstehen",
+      "Arten von Geh\u00f6rschutz kennen",
+      "L\u00e4rmbereiche erkennen",
+      "Irreversible Sch\u00e4digung verstehen"
+    ],
+    "fragen": [
+      {
+        "frage": "Ab welchem Tages-L\u00e4rmexpositionspegel muss der Arbeitgeber Geh\u00f6rschutz bereitstellen?",
+        "optionen": ["Ab 70 dB(A)", "Ab 80 dB(A)", "Ab 85 dB(A)", "Ab 90 dB(A)"],
+        "korrekt": 1,
+        "erklaerung": "Ab 80 dB(A) (unterer Ausl\u00f6sewert) muss Geh\u00f6rschutz bereitgestellt und \u00fcber Risiken aufgekl\u00e4rt werden. Ab 85 dB(A) ist das Tragen PFLICHT."
+      },
+      {
+        "frage": "Ab welchem Pegel ist das Tragen von Geh\u00f6rschutz Pflicht?",
+        "optionen": ["Ab 75 dB(A)", "Ab 80 dB(A)", "Ab 85 dB(A)", "Ab 90 dB(A)"],
+        "korrekt": 2,
+        "erklaerung": "Ab 85 dB(A) (oberer Ausl\u00f6sewert) ist das Tragen von Geh\u00f6rschutz PFLICHT. Der Arbeitgeber muss die Einhaltung \u00fcberwachen und L\u00e4rmbereiche kennzeichnen."
+      },
+      {
+        "frage": "Welche Arten von Geh\u00f6rschutz gibt es?",
+        "optionen": ["Nur Watte", "Geh\u00f6rschutzst\u00f6psel, Kapselgeh\u00f6rschutz und B\u00fcgelgeh\u00f6rschutz", "Nur Kopfh\u00f6rer", "Nur Ohrmuscheln"],
+        "korrekt": 1,
+        "erklaerung": "Geh\u00f6rschutz-Arten: Geh\u00f6rschutzst\u00f6psel (Einweg/Mehrweg), Kapselgeh\u00f6rschutz (B\u00fcgel/Helm), B\u00fcgelgeh\u00f6rschutz. Auswahl nach D\u00e4mmwert und Tragekomfort \u2013 \u00dcberd\u00e4mmung vermeiden!"
+      },
+      {
+        "frage": "Wie werden L\u00e4rmbereiche gekennzeichnet?",
+        "optionen": ["Gar nicht", "Mit blauem Gebotszeichen 'Geh\u00f6rschutz benutzen'", "Mit rotem Verbotszeichen", "Mit gr\u00fcnem Rettungszeichen"],
+        "korrekt": 1,
+        "erklaerung": "L\u00e4rmbereiche ab 85 dB(A) werden mit dem blauen Gebotszeichen M003 'Geh\u00f6rschutz benutzen' gekennzeichnet. Zus\u00e4tzlich m\u00fcssen L\u00e4rmminderungsma\u00dfnahmen gepr\u00fcft werden."
+      },
+      {
+        "frage": "Welche arbeitsmedizinische Vorsorge ist bei L\u00e4rmexposition vorgeschrieben?",
+        "optionen": ["Keine", "Angebotsvorsorge ab 80 dB(A), Pflichtvorsorge ab 85 dB(A)", "Nur bei Beschwerden", "Alle 5 Jahre ein H\u00f6rtest"],
+        "korrekt": 1,
+        "erklaerung": "Angebotsvorsorge ab 80 dB(A) (freiwillig f\u00fcr Besch\u00e4ftigte), Pflichtvorsorge ab 85 dB(A) (verpflichtend). Inhalt: Audiometrie (H\u00f6rtest) durch Betriebsarzt."
+      },
+      {
+        "frage": "Was ist das Besondere an l\u00e4rmbedingtem Geh\u00f6rverlust?",
+        "optionen": ["Er heilt von selbst", "Er ist irreversibel \u2013 zerst\u00f6rte Haarzellen regenerieren sich nicht", "Er tritt nur bei \u00e4lteren Menschen auf", "Er ist nur vor\u00fcbergehend"],
+        "korrekt": 1,
+        "erklaerung": "L\u00e4rmbedingter Geh\u00f6rverlust ist IRREVERSIBEL! Zerst\u00f6rte Haarzellen im Innenohr regenerieren sich nicht. L\u00e4rmschwerh\u00f6rigkeit ist die h\u00e4ufigste anerkannte Berufskrankheit (BK 2301)."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "hautschutz",
+    "titel": "Hautschutz",
+    "kategorie": "Gesundheit",
+    "icon": "Hand",
+    "dauer": "8 Min",
+    "rechtsgrundlage": "TRGS 401, GefStoffV",
+    "beschreibung": "Hautschutz-Unterweisung: 3-S\u00e4ulen-Hautschutz, Hautschutzplan, Handschuh-Arten und Dokumentation.",
+    "lernziele": [
+      "3-S\u00e4ulen-Modell verstehen",
+      "Hautschutzplan lesen",
+      "Geeignete Handschuhe w\u00e4hlen",
+      "Allergien erkennen",
+      "Betriebsanweisung befolgen"
+    ],
+    "fragen": [
+      {
+        "frage": "Was versteht man unter dem 3-S\u00e4ulen-Hautschutz?",
+        "optionen": ["Drei verschiedene Cremes", "Hautschutz, Hautreinigung und Hautpflege", "Drei Paar Handschuhe", "Drei Schichten Kleidung"],
+        "korrekt": 1,
+        "erklaerung": "Das 3-S\u00e4ulen-Modell: 1. Hautschutz (VOR der Arbeit \u2013 Schutzcreme), 2. Hautreinigung (NACH der Arbeit \u2013 schonende Reinigung), 3. Hautpflege (NACH Reinigung \u2013 R\u00fcckfettung)."
+      },
+      {
+        "frage": "Was steht im Hautschutzplan?",
+        "optionen": ["Nur der Name des Betriebsarztes", "Welche Hautschutz-, Reinigungs- und Pflegemittel f\u00fcr welche T\u00e4tigkeiten zu verwenden sind", "Nur Handschuhgr\u00f6\u00dfen", "Nur Allergietests"],
+        "korrekt": 1,
+        "erklaerung": "Der Hautschutzplan ordnet jeder T\u00e4tigkeit die passenden Produkte zu: Schutzcreme (vor Arbeit), Reinigungsmittel (nach Arbeit), Pflegeprodukt (nach Reinigung). Er h\u00e4ngt am Arbeitsplatz aus."
+      },
+      {
+        "frage": "Wie w\u00e4hlt man den richtigen Schutzhandschuh aus?",
+        "optionen": ["Nach Farbe", "Nach dem Gefahrstoff und der T\u00e4tigkeit gem\u00e4\u00df Sicherheitsdatenblatt", "Nach Gr\u00f6\u00dfe allein", "Immer Lederhandschuhe"],
+        "korrekt": 1,
+        "erklaerung": "Die Handschuhauswahl richtet sich nach: Gefahrstoff (chemische Best\u00e4ndigkeit), T\u00e4tigkeit (mechanische Belastung), Tragedauer (Durchbruchzeit) \u2013 Angaben im Sicherheitsdatenblatt Abschnitt 8."
+      },
+      {
+        "frage": "Welche Hauterkrankung tritt h\u00e4ufig bei beruflichem Hautkontakt auf?",
+        "optionen": ["Nur Sonnenbrand", "Kontaktekzem (allergisch oder irritativ)", "Nur Akne", "Nur Schuppenflechte"],
+        "korrekt": 1,
+        "erklaerung": "Das Kontaktekzem ist die h\u00e4ufigste berufsbedingte Hauterkrankung. Es gibt irritative (durch Reizstoffe) und allergische (durch Sensibilisierung) Formen. Beides ist meldepflichtig."
+      },
+      {
+        "frage": "Was muss bei Hautschutzma\u00dfnahmen dokumentiert werden?",
+        "optionen": ["Nichts", "Gef\u00e4hrdungsbeurteilung, Hautschutzplan, Unterweisung, Vorsorge", "Nur der Handschuheinkauf", "Nur Krankheitstage"],
+        "korrekt": 1,
+        "erklaerung": "Dokumentiert werden m\u00fcssen: Gef\u00e4hrdungsbeurteilung (Hautkontakt), Hautschutzplan (aush\u00e4ngen!), Unterweisungsnachweis, arbeitsmedizinische Vorsorge, ggf. BK-Verdachtsanzeige."
+      },
+      {
+        "frage": "Was regelt die Betriebsanweisung f\u00fcr Hautkontakt mit Gefahrstoffen?",
+        "optionen": ["Nur den Preis der Schutzhandschuhe", "Gefahren, Schutzma\u00dfnahmen, Erste Hilfe und Verhalten bei Hautkontakt", "Nur die Arbeitszeit", "Nur die Entsorgung"],
+        "korrekt": 1,
+        "erklaerung": "Die Betriebsanweisung informiert \u00fcber: Gefahrstoff-Eigenschaften, Hautschutzma\u00dfnahmen (Handschuhe, Creme), Erste Hilfe bei Hautkontakt, Verhalten bei Verschüttung, Hygienema\u00dfnahmen."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "umweltschutz",
+    "titel": "Umweltschutz im Betrieb",
+    "kategorie": "Umwelt",
+    "icon": "Leaf",
+    "dauer": "10 Min",
+    "rechtsgrundlage": "WHG, AwSV, KrWG",
+    "beschreibung": "Umweltschutz-Unterweisung: Abfalltrennung, Gew\u00e4sserschutz, Leckage-Meldung, Auffangwannen und Energieeffizienz.",
+    "lernziele": [
+      "Abfalltrennung verstehen",
+      "Gew\u00e4sserschutz beachten",
+      "Leckagen melden",
+      "Auffangwannen kontrollieren",
+      "Energieeffizienz f\u00f6rdern"
+    ],
+    "fragen": [
+      {
+        "frage": "Welches Gesetz regelt die Abfallentsorgung in Deutschland?",
+        "optionen": ["BImSchG", "Kreislaufwirtschaftsgesetz (KrWG)", "Arbeitsschutzgesetz", "Handelsgesetzbuch"],
+        "korrekt": 1,
+        "erklaerung": "Das Kreislaufwirtschaftsgesetz (KrWG) regelt die Abfallwirtschaft. Abfallhierarchie: 1. Vermeidung, 2. Vorbereitung zur Wiederverwendung, 3. Recycling, 4. Verwertung, 5. Beseitigung."
+      },
+      {
+        "frage": "Was ist beim betrieblichen Gew\u00e4sserschutz besonders zu beachten?",
+        "optionen": ["Nur die Wasserrechnung", "Dass keine wassergef\u00e4hrdenden Stoffe in Boden oder Gew\u00e4sser gelangen", "Nur der Wasserverbrauch", "Nur die Regenentw\u00e4sserung"],
+        "korrekt": 1,
+        "erklaerung": "Gem\u00e4\u00df WHG \u00a762 darf niemand Gew\u00e4sser nachteilig ver\u00e4ndern. Wassergef\u00e4hrdende Stoffe m\u00fcssen so gelagert werden, dass kein Austritt in Boden oder Gew\u00e4sser m\u00f6glich ist."
+      },
+      {
+        "frage": "Was m\u00fcssen Sie bei einer Leckage (Austritt von Gefahrstoffen) tun?",
+        "optionen": ["Abwarten bis es verdunstet", "Sofort melden, Ausbreitung verhindern, Bindemittel einsetzen", "Nur wenn es viel ist, melden", "Mit Wasser wegssp\u00fclen"],
+        "korrekt": 1,
+        "erklaerung": "Bei Leckagen: 1. Sofort melden (Vorgesetzter/Umweltbeauftragter), 2. Ausbreitung verhindern (Auffangma\u00dfnahmen), 3. Bindemittel einsetzen, 4. Keinesfalls in Kanalisation sp\u00fclen!"
+      },
+      {
+        "frage": "Wie m\u00fcssen wassergef\u00e4hrdende Stoffe gelagert werden?",
+        "optionen": ["Direkt auf dem Boden", "In geeigneten Beh\u00e4ltern mit Auffangwanne auf undurchl\u00e4ssigem Boden", "Im Freien ohne Schutz", "In der N\u00e4he von Gew\u00e4ssern"],
+        "korrekt": 1,
+        "erklaerung": "Wassergef\u00e4hrdende Stoffe m\u00fcssen gem\u00e4\u00df AwSV in geeigneten Beh\u00e4ltern mit Auffangwannen auf undurchl\u00e4ssigem Untergrund gelagert werden. Auffangvolumen: 100% des gr\u00f6\u00dften Beh\u00e4lters."
+      },
+      {
+        "frage": "Welches Volumen muss eine Auffangwanne mindestens haben?",
+        "optionen": ["50% des Beh\u00e4ltervolumens", "100% des gr\u00f6\u00dften Beh\u00e4lters bzw. 10% der Gesamtmenge", "200% des Beh\u00e4ltervolumens", "Es gibt keine Vorgabe"],
+        "korrekt": 1,
+        "erklaerung": "Auffangwannen m\u00fcssen mindestens den Inhalt des gr\u00f6\u00dften Beh\u00e4lters aufnehmen k\u00f6nnen (100%). In Wasserschutzgebieten gelten strengere Anforderungen."
+      },
+      {
+        "frage": "Wer ist f\u00fcr die Einhaltung der Umweltschutzvorschriften im Betrieb verantwortlich?",
+        "optionen": ["Nur der Umweltbeauftragte", "Der Betreiber (Arbeitgeber), unterst\u00fctzt durch den Umweltbeauftragten", "Nur die Beh\u00f6rde", "Nur die Mitarbeiter"],
+        "korrekt": 1,
+        "erklaerung": "Die Gesamtverantwortung liegt beim Betreiber (Arbeitgeber). Der Umweltbeauftragte berät und \u00fcberwacht, hat aber keine Entlastungsfunktion f\u00fcr den Betreiber."
+      },
+      {
+        "frage": "Welche Meldepflicht besteht bei Umweltsch\u00e4den?",
+        "optionen": ["Keine", "Sofortige Meldung an die zust\u00e4ndige Beh\u00f6rde bei erheblicher Gew\u00e4sserverunreinigung", "Nur j\u00e4hrliche Meldung", "Nur bei Beschwerden"],
+        "korrekt": 1,
+        "erklaerung": "Bei erheblicher Gew\u00e4sserverunreinigung besteht sofortige Meldepflicht an die Untere Wasserbeh\u00f6rde und ggf. Feuerwehr (\u00a7100 WHG). Verz\u00f6gerung kann strafbar sein!"
+      },
+      {
+        "frage": "Was k\u00f6nnen Sie pers\u00f6nlich zur Energieeffizienz im Betrieb beitragen?",
+        "optionen": ["Nichts", "Beleuchtung/Ger\u00e4te ausschalten, Druckluft-Leckagen melden, bewusst heizen/l\u00fcften", "Nur der Hausmeister kann etwas tun", "Energiesparen ist Arbeitgebersache"],
+        "korrekt": 1,
+        "erklaerung": "Jeder kann beitragen: Licht/Ger\u00e4te ausschalten, Druckluft-Leckagen melden (bis 30% Verlust!), Fenster nicht bei laufender Heizung \u00f6ffnen, Standby vermeiden, Maschinen nach Nutzung abschalten."
+      }
+    ]
+  }
+]
